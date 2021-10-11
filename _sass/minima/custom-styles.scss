@@ -1,0 +1,76 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.home-text {
+  text-align: center;
+}
+
+.home-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-width: 50%;
+  height: auto;
+}
+
+.main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  max-width: 85%;
+  height: auto;
+}
+
+/* Define the footer */
+.footer_wrapper{
+  margin-bottom: $spacing-unit / 2;
+  @include relative-font-size(0.9375);
+  color: $brand-color;
+  width: 100%;
+}
+
+.footer_left_column{
+float: left;
+}
+
+.footer_right_column{
+float: right;
+letter-spacing: $spacing-unit;
+}
+
+
+@media screen and (max-width: $on-medium) {
+  .footer_wrapper{
+    margin-bottom: $spacing-unit / 2;
+    @include relative-font-size(0.9375);
+    color: $brand-color;
+  }
+
+  .footer_left_column{
+  width: 100%;
+  display: inline;
+  text-align: center;
+  }
+
+  .footer_right_column{
+  margin-top: $spacing-unit / 4;
+  width: 100%;
+  display:inline;
+  text-align: center;
+  }
+}
+
+.color-text-box{
+  background-color: rgb(210,210,210);
+  border-radius: 15px;
+  padding: $spacing-unit / 2;
+  margin-bottom: 20px;
+}
+
+.underline-text{
+  text-decoration: underline;
+}

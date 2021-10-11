@@ -1,0 +1,33 @@
+title: Ryan Moughan
+author:
+  name: Ryan Moughan
+  email: moughan1@llnl.gov
+description: > # this means to ignore newlines until "show_excerpts:"
+  Personal Blog
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    github: rmoughan
+    linkedin: rmoughan
+
+# Build settings
+theme: minima
+
+# Setup analytics
+google_analytics: G-WEEQWSCD39
+
+header_pages:
+  - about.html
+  - research.html
+  - teaching.html
+  - blog.md
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

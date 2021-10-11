@@ -1,0 +1,5 @@
+### Things to do after launching
+
+* Check to see if the tracking is working (fix if not)
+* Add time-changing home photo
+* Write first post

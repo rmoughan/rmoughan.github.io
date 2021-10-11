@@ -1,0 +1,18 @@
+{%- assign social = site.minima.social_links -%}
+
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <div class="footer_wrapper">
+      <div class="footer_left_column">
+          {% if site.author.name -%}
+            {{site.time | date: "© %Y " | append: site.author.name | escape }}
+          {% endif -%}
+      </div>
+      <div class="footer_right_column">
+        <a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+        <a rel="me" href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" title="{{ social.linkedin | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
