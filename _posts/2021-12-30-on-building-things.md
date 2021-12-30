@@ -36,7 +36,7 @@ Embarassed but hopeful, I chose the correct setting for the drill and successful
 
 After a few days and feeling antsy to work out, I had regained my motivation to deal with both the task and how stupid I felt not being able to use a drill and a screw. I needed help, so I took a video of what the screw looked like when it was shaking and sent it to my relative. 
 
-![](/assets/on-building-things/screw_shaking.mov)
+![](/assets/on-building-things/screw_shaking.mp4)
 
 Courtesy of my relative, the last piece of knowledge arrived. I just needed to drill the pilot holes deeper. Increasing the depth of the pilot hole allowed for more of the screw to be initially slotted into the wood, giving the increased stability that was required to drill it in. Dozens of hours over a few weeks and I had unlocked an achievement most boy scouts probably do at a young age: I could use a power tool to drill a screw into wood. 
 
@@ -58,7 +58,7 @@ If all of this sounds exhausting, this story doesn't even include many other mis
 
 So why have I taken you on this long, circuitous journey about the struggles of a Berkeley grad student trying to do what seems to be a relatively simple task? Well, I didn't have much of a background in CS when I came to Berkeley. Growing up, CS was a foreign idea to me that was for all of the brilliant kids in movies or tv shows. Which is funny, because I did well enough in school. But it was hard to imagine CS was for me when it was something I knew so little about. There was one kid in my Spanish class in high school who knew a bit of HTML, and that blew me away. So I didn't exactly have a ton to go off of, largely just what the media told me. Which, without fail, is basically encapsulated in this scene from The Social Network.
 
-![](/assets/on-building-things/social_network_window.mov)
+![](/assets/on-building-things/social_network_window.mp4)
 
 For those of you who haven't seen it, here's the gist. Mark Zuckerberg is doing what Mark Zuckerberg does and creating things that are just *great* for the world (hi Facebook please never hire me). He needs a way to rank women at Harvard, which his friend Eduardo is able to supply. In classic Hollywood fashion, Eduardo has a stroke of genius and writes this fancy-looking math on the window of the dorm. He looks very smart while doing so, especially since he describes it as an algorithm (insert ooooohs and aaaaaahs). Basically every tech movie or tv show I've ever watched has some derivative of this scene. Nerd looks like a genius writing math/code on some whiteboard, window, or other non-paper surface. Sometimes there's epic music playing in the background, other times there's fun math equations dancing around them in the scene. To the directors' credit, it works. The characters generally seem to be perceived by the audience as brilliant. Except the entire anatomy of these scenes as some representation of computer science or math is a lie. At least as far as I'm concerned.
 
