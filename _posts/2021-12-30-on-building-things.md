@@ -12,7 +12,9 @@ If you'll allow me to back up a little bit, earlier that summer I had moved to a
 
 In my head, this seemed like a simple enough plan. I basically needed to build an open-ended rectangular prism that could support the pull-up bar, my bodyweight, and some extra free weights I wanted to add for more difficulty. How hard could that possibly be? It was basically just a giant wooden box. Still, I thought it would be good to go through some of the basic principles I had learned about building things as a CS student. So the first step that I took was to draw out a rough design of the schematic I envisioned in my head. 
 
-![](/assets/on-building-things/pullup_schematic.jpeg)
+<p style="text-align:center;">
+<img src = "/assets/on-building-things/pullup_schematic.jpeg" width="540" height="720">
+</p>
 
 While I thought the schematic seemed reasonable, I hadn't drawn any free body diagrams or anything to determine the amount of weight it could support. Even if I had, I didn't really know how to incorporate the strength of materials into a free body diagram. To me it seemed like as long as the pull-up bar was sufficiently attached to the columns, and the columns were grounded by the rectangular base, it should be safe. But I didn't actually know. So I reached out to a relative in my family who does a bit of amateur woodworking to get some advice. 
 
@@ -20,7 +22,9 @@ My relative told me the schematic looked pretty reasonable, recommended a few tw
 
 The next step that logically made sense to me was to figure out some list of supplies I needed in order to actually build this schematic. That was simple enough, as it just involved finalizing the measurements in my schematic and adding up all of the individual components to get an inventory. Then, since I was new to construction, I added in some wiggle room in the likely event that I made a mistake. A slightly painful trip to Home Depot later, I had all the wood and screws I could ever want. In my head, I was feeling decently confident that I could have the pull-up bar up and usable within a week or two. I basically just had to cut wood and drill a few screws in to connect everything. Shouldn't be that bad, right? 
 
-![](/assets/on-building-things/pre_construction.jpeg)
+<p style="text-align:center;">
+<img src = "/assets/on-building-things/pre_construction.jpeg" width="540" height="720">
+</p>
 
 One of the other pieces of advice my relative had given me was to purchase a box saw, as it allows for fairly precise and accurate angles when cutting wood. It was a decent recommendation, but with the number of cuts I had to make to the wood, having to use a manual saw slowed progress down quite a bit. I was only working on this construction project for an hour or two every day when I wasn't teaching, and depending on the exact piece of wood, it could easily take an hour to make the cuts I needed. I quickly realized my timeline was quite optimistic, as it ended up taking a few weeks just to cut the wood into the various pieces I ended up needing. Then there was the fact that I was sawing the wood in my studio apartment, which could hardly handle the 10 ft long pieces and made a massive mess that I had to spend 30 minutes everyday cleaning up. It was a pretty horrendous process that dragged on for weeks, and only the beginning of many beginner mistakes.  
 
@@ -36,11 +40,13 @@ Embarassed but hopeful, I chose the correct setting for the drill and successful
 
 After a few days and feeling antsy to work out, I had regained my motivation to deal with both the task and how stupid I felt not being able to use a drill and a screw. I needed help, so I took a video of what the screw looked like when it was shaking and sent it to my relative. 
 
-<video height="480" width="640" autoplay loop>
+<p style="text-align:center;">
+<video height="720" width="540" autoplay loop>
   <source src="/assets/on-building-things/screw_shaking.mp4" type="video/mp4">
   <source src="/assets/on-building-things/screw_shaking.webm" type="video/webm">
   Your browser doesn't support the video tag in HTML5
 </video>
+</p>
 
 Courtesy of my relative, the last piece of knowledge arrived. I just needed to drill the pilot holes deeper. Increasing the depth of the pilot hole allowed for more of the screw to be initially slotted into the wood, giving the increased stability that was required to drill it in. Dozens of hours over a few weeks and I had unlocked an achievement most boy scouts probably do at a young age: I could use a power tool to drill a screw into wood. 
 
@@ -50,11 +56,15 @@ This is where the foreshadowed issue with the screw type comes in. My relative h
 
 Because of that bulky head, joining the columns orthogonally to the base became a massive issue. I couldn't do what seemed natural and drive the screws from under the base into the columns to secure the base to the columns, because if I did that, the head of the screws would be sticking out of the bottom of the base. That meant the entire pull-up bar would be resting on a few screw heads instead of the base, leaving it highly unstable. I sat and thought about the problem for a day or two, and ultimately the most practical solution I could think of with my supplies was to try to drill the screw from the columns to the base at a 45 degree angle.
 
-![](/assets/on-building-things/45_degree_screw.jpeg)
+<p style="text-align:center;">
+<img src = "/assets/on-building-things/45_degree_screw.jpeg" width="540" height="720">
+</p>
 
 If you think this approach looks hideous and unsafe, you're not alone. I made sure to test it in a variety of ways and to my surprise, it largely stood up. When I had finally assembled the whole thing, I discovered that it had a bit of a swaying problem, largely because of the 45 degree angled screws. But at the end of the day I was able to get it fully assembled to a degree that didn't totally mismatch what I had imagined.
 
-![](/assets/on-building-things/completed_pullup.jpeg)
+<p style="text-align:center;">
+<img src = "/assets/on-building-things/completed_pullup.jpeg" width="540" height="720">
+</p>
 
 Somehow I was able to use it thousands of times without it ever breaking or injuring myself. It helped that I did monthly upkeep on it, especially on those awful angled screws to make sure they were still holding everything upright. To this day I still joke with myself that this project was my real Master's thesis. There aren't many things I have tried to do in my life that have been more challenging and tiresome. 
 
@@ -62,11 +72,13 @@ If all of this sounds exhausting, this story doesn't even include many other mis
 
 So why have I taken you on this long, circuitous journey about the struggles of a Berkeley grad student trying to do what seems to be a relatively simple task? Well, I didn't have much of a background in CS when I came to Berkeley. Growing up, CS was a foreign idea to me that was for all of the brilliant kids in movies or tv shows. Which is funny, because I did well enough in school. But it was hard to imagine CS was for me when it was something I knew so little about. There was one kid in my Spanish class in high school who knew a bit of HTML, and that blew me away. So I didn't exactly have a ton to go off of, largely just what the media told me. Which, without fail, is basically encapsulated in this scene from The Social Network.
 
-<video height="480" width="640" autoplay loop>
+<p style="text-align:center;">
+<video height="540" width="720" autoplay loop>
   <source src="/assets/on-building-things/social_network_window.mp4" type="video/mp4">
   <source src="/assets/on-building-things/social_network_window.webm" type="video/webm">
   Your browser doesn't support the video tag in HTML5
 </video>
+</p>
 
 For those of you who haven't seen it, here's the gist. Mark Zuckerberg is doing what Mark Zuckerberg does and creating things that are just *great* for the world (hi Facebook please never hire me). He needs a way to rank women at Harvard, which his friend Eduardo is able to supply. In classic Hollywood fashion, Eduardo has a stroke of genius and writes this fancy-looking math on the window of the dorm. He looks very smart while doing so, especially since he describes it as an algorithm (insert ooooohs and aaaaaahs). Basically every tech movie or tv show I've ever watched has some derivative of this scene. Nerd looks like a genius writing math/code on some whiteboard, window, or other non-paper surface. Sometimes there's epic music playing in the background, other times there's fun math equations dancing around them in the scene. To the directors' credit, it works. The characters generally seem to be perceived by the audience as brilliant. Except the entire anatomy of these scenes as some representation of computer science or math is a lie. At least as far as I'm concerned.
 
