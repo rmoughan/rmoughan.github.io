@@ -73,7 +73,7 @@ If all of this sounds exhausting, this story doesn't even include many other mis
 So why have I taken you on this long, circuitous journey about the struggles of a Berkeley grad student trying to do what seems to be a relatively simple task? Well, I didn't have much of a background in CS when I came to Berkeley. Growing up, CS was a foreign idea to me that was for all of the brilliant kids in movies or tv shows. Which is funny, because I did well enough in school. But it was hard to imagine CS was for me when it was something I knew so little about. There was one kid in my Spanish class in high school who knew a bit of HTML, and that blew me away. So I didn't exactly have a ton to go off of, largely just what the media told me. Which, without fail, is basically encapsulated in this scene from The Social Network.
 
 <p style="text-align:center;">
-<video height="360" width="480" autoplay loop>
+<video height="480" width="360" autoplay loop>
   <source src="/assets/on-building-things/social_network_window.mp4" type="video/mp4">
   <source src="/assets/on-building-things/social_network_window.webm" type="video/webm">
   Your browser doesn't support the video tag in HTML5
