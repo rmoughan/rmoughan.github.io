@@ -16,3 +16,17 @@
 <meta name="theme-color" content="#ffffff">
 
 <title> {{ site.title | append: " - " | append: page.title }} </title>
+
+<!-- MathJax for using LaTex-style math in Markdown -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'] ],
+    processEscapes: true
+  }
+});
+</script>
+
+<script type="text/javascript"
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
