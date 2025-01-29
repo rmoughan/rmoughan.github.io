@@ -1,0 +1,32 @@
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- assign social = site.minima.social_links -%}
+
+<div class="sidenav-button">
+  <a href="javascript: void(0)" onclick="openNav()">
+    <svg viewBox="0 0 344 74" class="trapezoid"><use xlink:href="{{ '/assets/trapezoid.svg#trapezoid' | relative_url }}"></use></svg>
+    <svg viewBox="0 0 344 74" class="trapezoid"><use xlink:href="{{ '/assets/trapezoid.svg#trapezoid' | relative_url }}"></use></svg>
+  </a>
+</div>
+
+<nav id="side-nav" class="sidenav">
+    <div class="close-button-container">
+      <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+    </div>
+    <a href='{{ "/" | relative_url }}'><svg viewBox="0 0 1050 883" class="home-button"><use xlink:href="{{ '/assets/logo.svg#logo' | relative_url }}"></use></svg></a>
+    <div class="page-links-container">
+      {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.title -%}
+        <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <footer class="sidenav-footer">
+      {%- include social.html -%}
+      <div class="copyright">
+        {% if site.author.name -%}
+          {{site.time | date: "© %Y " | append: site.author.name | escape }}
+        {% endif -%}
+      </div>
+    </footer>
+</nav>

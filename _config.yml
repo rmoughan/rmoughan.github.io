@@ -1,7 +1,7 @@
 title: Ryan Moughan
 author:
   name: Ryan Moughan
-  email: moughan1@llnl.gov
+  email: rmoughan@berkeley.edu
 description: > # this means to ignore newlines until "show_excerpts:"
   Personal Blog
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -23,9 +23,9 @@ theme: minima
 google_analytics: G-WEEQWSCD39
 
 header_pages:
-  - about.html
-  - research.html
-  - teaching.html
+  - about.md
+  - research.md
+  - teaching.md
   - blog.md
 
 plugins:

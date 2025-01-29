@@ -16,11 +16,6 @@
   display: flex;
   justify-content: center;
 
-  //killed this because it was throwing off the centering for mobile devices
-  // @include media-query($on-palm) {
-  //   padding-right: 45px;
-  // }
-
   &,
   &:visited {
     color: $site-title-color;
@@ -85,8 +80,6 @@
     margin-left: 20px;
   }
 
-  //I believe this is for non-mobile widths to override the above navigation
-  //sidebar setting
   @media screen and (min-width: $on-medium) {
     position: relative;
     border: none;
@@ -283,6 +276,7 @@
   h6 {
     @include relative-font-size(1.0625);
   }
+
 }
 
 

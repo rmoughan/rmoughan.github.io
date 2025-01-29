@@ -17,6 +17,15 @@
 
 <title> {{ site.title | append: " - " | append: page.title }} </title>
 
+<script type="text/javascript">
+function openNav() {
+  document.getElementById("side-nav").style.width = "200px";
+}
+function closeNav() {
+  document.getElementById("side-nav").style.width = "0";
+}
+</script>
+
 <!-- MathJax for using LaTex-style math in Markdown -->
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
